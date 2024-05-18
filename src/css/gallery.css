@@ -1,0 +1,24 @@
+.gallery {
+    max-width: 1128px;
+  
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  
+    margin: 100px auto;
+  }
+  
+  .gallery-item {
+    width: 360px;
+  }
+  
+  .gallery-item:hover,
+  .gallery-item:focus {
+    transform: scale(1.04);
+  }
+  
+  .gallery-image {
+    width: 100%;
+    height: 250px;
+  }
+  
